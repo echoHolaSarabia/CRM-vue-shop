@@ -1,0 +1,97 @@
+{
+  "menu": {
+      "tienda": "Tienda",
+      "g_productos": "Gestión de Productos",
+      "g_categorias": "Gestión de Categorías",
+      "g_colores": "Gestión de Colores"
+  },
+
+  "portada": {
+      "anadir_carrito": "Añadir al carrito",
+      "name_carrito": "Nombre",
+      "qty_carrito": "Unid.",
+      "price_carrito": "PVP",
+      "actions_carrito": "Acciones",
+      "total_carrito": "Coste Total",
+      "delete_carrito": "Eliminar",
+      "emty": "No hay productos en el carrito"
+  },
+
+  "productos": {
+    "anadir": "Añadir nuevo",
+    "buscar": "Buscar",
+    "buscar_placeholder": "Ej: Pantalón vaquero...",
+    "borrar": "Borrar",
+    "pag": "Por pág.",
+    "foto": "Foto",
+    "producto": "Producto",
+    "categoria": "Categoría",
+    "colores": "Colores",
+    "acciones": "Acciones",
+    "editar": "Editar",
+    "detalles": "detalles",
+    "eliminar": "Eliminar",
+    "emty": "No hay productos que mostrar"
+  },
+
+  "productos_add": {
+    "titulo": "Creación de producto",
+    "titulo2": "Actualización de producto",
+    "t1": "¿Cómo se llama?",
+    "t1_placeholder": "Introduce el nombre del producto",
+    "t2": "Fotografía",
+    "t2_placeholder": "Introduce la url de la imagen del producto",
+    "t3": "Precio",
+    "t3_placeholder": "Introduce el precio de cada unidad",
+    "t4": "Stock de unidades",
+    "t4_placeholder": "Introduce el número de unidades en existencias",
+    "t5": "Categoría",
+    "t6_placeholder": "Disponible en los colores...",
+    "t7_placeholder": "Descripción en Español",
+    "t8_placeholder": "Descripción en Inglés",
+    "t9_placeholder": "Descripción en Alemán",
+    "t10_boton": "Crear producto",
+    "alert":"¿Seguro que quieres borrar "
+  },
+
+  "categoria_add": {
+    "titulo": "Gestión de categorías",
+    "titulo2": "Creación de categoría",
+    "titulo3": "Actualización de categoría",
+    "editar": "editar",
+    "eliminar": "eliminar",
+    "boton": "Añadir nueva",
+    "alert": "¿Seguro que quieres borrar la categoría ",
+    "alert2": " Los productos asignados a esta categoría se reasignaran a 'Sin categoría'",
+    "t1": "Actualización de categoría",
+    "t2": "Asignación de nombre",
+    "t2_placeholder": "Introduce el nombre de la categoría",
+    "t3": "URL de la foto",
+    "t3_placeholder": "Introduce la URL de la imagen",
+    "boton_ed": "Actualizar",
+    "boton_ed2": "Actualización",
+    "error": "Este campo es requerido y debe tener una longitud mínima de 3",
+    "error2": "Sabemos que eres generoso, pero ¡no regales mercancía!",
+    "error3": "Al menos debe haber 1",
+    "error4": "No hay categorías creadas",
+    "boton2": "Crear categoría"
+    
+
+  },
+
+  "color_add": {
+    "titulo": "Gestión de colores disponibles",
+    "editar": "editar",
+    "eliminar": "eliminar",
+    "boton": "Añadir nuevo",
+    "alert": "Se borrará también de los productos que lo tengan asignado",
+    "t1": "Creación de color",
+    "t2": "Asignación de nombre",
+    "t2_placeholder": "Introduce el nombre del color",
+    "t3": "Selección de color",
+    "boton_ed": "Crear color",
+    "error": "Este campo es requerido y debe tener una longitud mínima de 3",
+    "error2": "No hay colores creados"
+    
+  }
+}

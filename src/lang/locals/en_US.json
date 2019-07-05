@@ -1,0 +1,99 @@
+{
+    "menu": {
+        "tienda": "Shop",
+        "g_productos": "Product Management",
+        "g_categorias": "Category Management",
+        "g_colores": "Colors Management"
+    },
+
+    "portada": {
+        "anadir_carrito": "Add to Card",
+        "name_carrito": "Name",
+        "qty_carrito": "Qty",
+        "price_carrito": "Price",
+        "actions_carrito": "Actions",
+        "total_carrito": "Total Amount",
+        "delete_carrito": "Delete",
+        "emty": "There are not products in your shopping card"
+    },
+
+    "productos": {
+        "anadir": "Add new Item",
+        "buscar": "Search",
+        "buscar_placeholder": "Ex: trouser...",
+        "borrar": "Reset",
+        "pag": "By page",
+        "foto": "Picture",
+        "producto": "Product",
+        "categoria": "Category",
+        "colores": "Colors",
+        "acciones": "Actions",
+        "editar": "Edit",
+        "detalles": "Details",
+        "eliminar": "Delete",
+        "emty": "No hay productos que mostrar"
+
+        
+      },
+
+      "productos_add": {
+        "titulo": "Product creation",
+        "titulo2": "Update product",
+        "t1": "What's it name?",
+        "t1_placeholder": "Enter the name of the product",
+        "t2": "Picture",
+        "t2_placeholder": "Enter the url of the product image",
+        "t3": "Price",
+        "t3_placeholder": "Enter the price of each unit",
+        "t4": "Stock",
+        "t4_placeholder": "Enter the number of units in stock",
+        "t5": "Category",
+        "t6_placeholder": "Available colors ...",
+        "t7_placeholder": "Spanish Description",
+        "t8_placeholder": "English Description",
+        "t9_placeholder": "German Description",
+        "t10_boton": "Create product",
+        "alert": "Are you sure you want to delete "
+  },
+
+  "categoria_add": {
+    "titulo": "Category management",
+    "titulo2": "Category Creation",
+    "titulo3": "Uptating category",
+    "editar": "edit",
+    "eliminar": "delete",
+    "boton": "Add new",
+    "alert": "Are you sure you want to delete the category ",
+    "alert2": " The products assigned to this category will be reassigned to 'Uncategorized'",
+    "t1": "Category update",
+    "t2": "Name assignment",
+    "t2_placeholder": "Enter the name of the category",
+    "t3": "URL of the photo",
+    "t3_placeholder": "Enter the URL of the image",
+    "boton_ed": "Update",
+    "boton_ed2": "Update",
+    "error": "This field is required and must have a minimum length of 3",
+    "error2": "We know that you are generous, but do not give away any product!",
+    "error3": "At least 1",
+    "error4": "No categories created",
+    "boton2": "Create category"
+  },
+
+  "color_add": {
+    "titulo": "Management of available colors",
+    "editar": "edit",
+    "eliminar": "delete",
+    "boton": "Add new",
+    "alert": "It will also be deleted from the products that have it assigned",
+    "t1": "Creating color",
+    "t2": "Name assignment",
+    "t2_placeholder": "Enter the name of the color",
+    "t3": "Color selection",
+    "boton_ed": "Create color",
+    "error": "This field is required and must have a minimum length of 3",
+    "error2": "No colors created"
+  }
+}
+
+
+

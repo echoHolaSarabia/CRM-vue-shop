@@ -1,0 +1,214 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "camisas",
+      "picture": "http://www.loopeando.com/prueba-vue/imgs/camisas.jpg"
+    },
+    {
+      "id": 2,
+      "name": "camisetas",
+      "picture": "http://www.loopeando.com/prueba-vue/imgs/camisetas.jpg"
+    },
+    {
+      "id": 3,
+      "name": "polos",
+      "picture": "http://www.loopeando.com/prueba-vue/imgs/polos.jpg"
+    },
+    {
+      "id": 4,
+      "name": "polos",
+      "picture": "http://www.loopeando.com/prueba-vue/imgs/polos.jpg"
+    },
+    {
+      "id": 6,
+      "name": "vestidos",
+      "picture": "http://loopeando.com/prueba-vue/imgs/vestidos.jpg"
+    },
+    {
+      "id": 1562090179677,
+      "name": "Sudaderas",
+      "picture": "http://www.loopeando.com/prueba-vue/imgs/sudaderas.jpg",
+      "done": false
+    },
+    {
+      "id": 1562090248315,
+      "name": "zapatillas",
+      "picture": "http://www.loopeando.com/prueba-vue/imgs/zapatillas.jpg",
+      "done": false
+    },
+    {
+      "id": 1562311358862,
+      "name": "pantalones",
+      "picture": "http://loopeando.com/prueba-vue/imgs/vaqueros.jpg",
+      "done": false
+    }
+  ],
+  "colors": [
+    {
+      "id": 1562307915846,
+      "name": "rojo",
+      "css": "rgb(233,5,5)",
+      "done": false
+    },
+    {
+      "id": 1562307981879,
+      "name": "negro",
+      "css": "rgb(0,0,0)",
+      "done": false
+    },
+    {
+      "id": 1562308320146,
+      "name": "verde",
+      "css": "rgb(40,141,6)",
+      "done": false
+    },
+    {
+      "id": 1562308753317,
+      "name": "amarillo",
+      "css": "rgb(255,232,7)",
+      "done": false
+    },
+    {
+      "id": 1562309635870,
+      "name": "morado",
+      "css": "rgb(187,0,239)",
+      "done": false
+    },
+    {
+      "id": 1562310242565,
+      "name": "gris",
+      "css": "rgb(211,211,211)",
+      "done": false
+    },
+    {
+      "id": 1562310944539,
+      "name": "naranja",
+      "css": "rgb(255,165,10)",
+      "done": false
+    }
+  ],
+  "products": [
+    {
+      "id": 12,
+      "name": "Camisa cómoda de punto",
+      "picture": "https://static.kiabi.es/images/camisa-comoda-de-punto-verde-gris-tallas-grandes-hombre-vs913_20_fr1.jpg",
+      "price": "22.62",
+      "stock": 82,
+      "category": 2,
+      "color": [],
+      "actions": 12
+    },
+    {
+      "id": 13,
+      "name": "Camiseta estampada sin mangas regular",
+      "picture": "https://static.kiabi.es/images/camiseta-estampada-sin-mangas-regular-azul-hombre-wr497_3_fr1.jpg",
+      "price": "13.03",
+      "stock": 24,
+      "category": 2,
+      "color": [],
+      "actions": 13
+    },
+    {
+      "id": 14,
+      "name": "Bermudas oxford rectas",
+      "picture": "https://static.kiabi.es/images/bermudas-oxford-rectas-azul-tallas-grandes-hombre-wp949_2_fr1.jpg",
+      "price": "13.57",
+      "stock": 32,
+      "category": 1562311358862,
+      "color": [
+        1562307915846
+      ],
+      "actions": 14
+    },
+    {
+      "id": 16,
+      "name": "Camiseta recta estampada Ecodiseño",
+      "picture": "https://static.kiabi.es/images/camiseta-recta-estampada-ecodiseno-gris-tallas-grandes-hombre-wn561_9_fr1.jpg",
+      "price": "22.35",
+      "stock": 98,
+      "category": 2,
+      "color": [
+        1562310242565
+      ],
+      "actions": 16
+    },
+    {
+      "id": 17,
+      "name": "Bañador liso",
+      "picture": "https://static.kiabi.es/images/banador-liso-negro-hombre-wo621_5_fr1.jpg",
+      "price": "18.83",
+      "stock": 16,
+      "category": 1562311358862,
+      "color": [
+        1562310242565,
+        1562307981879
+      ],
+      "actions": 17
+    },
+    {
+      "id": 18,
+      "name": "Camiseta estampada sin mangas regular",
+      "picture": "https://static.kiabi.es/images/camiseta-estampada-sin-mangas-regular-azul-hombre-wr497_1_fr1.jpg",
+      "price": "2.97",
+      "stock": 92,
+      "category": 2,
+      "color": [
+        1562307915846,
+        1562310944539,
+        1562310242565
+      ],
+      "actions": 18
+    },
+    {
+      "id": 19,
+      "name": "Chanclas bicolores",
+      "picture": "https://static.kiabi.es/images/chanclas-bicolores-azul-navy-hombre-wo520_1_fr1.jpg",
+      "price": "18.78",
+      "stock": 87,
+      "category": 1562090248315,
+      "color": [
+        1562308320146,
+        1562309635870,
+        1562310944539,
+        1562307915846
+      ],
+      "actions": 19
+    },
+    {
+      "id": 20,
+      "name": "Camisa regular de rayas",
+      "picture": "https://static.kiabi.es/images/camisa-regular-de-rayas-gris-hombre-wp980_1_fr1.jpg",
+      "price": "18.09",
+      "stock": 39,
+      "category": 1,
+      "color": [
+        1562310242565,
+        1562307915846
+      ],
+      "actions": 20,
+      "descrip_esp": "Las rayas verticales estilizan la figura y aportan el toque distinguido que tanto nos gusta. ",
+      "descrip_eng": "The vertical stripes stylize the figure and bring the distinguished touch that we like so much.",
+      "descrip_grm": "Die vertikalen Streifen stilisieren die Figur und bringen den besonderen Touch, den wir so sehr mögen."
+    },
+    {
+      "id": 1562313819009,
+      "name": "Camiseta con mensaje bordado",
+      "picture": "https://static.kiabi.es/images/camiseta-con-mensaje-bordado-gris-mujer-talla-34-a-48-wm871_1_fr1.jpg",
+      "price": 4,
+      "stock": 90,
+      "category": 2,
+      "color": [
+        1562310242565,
+        1562309635870,
+        1562308753317,
+        1562310944539
+      ],
+      "descrip_esp": "Nos encantan estas camisetas con mensajes 'feel good' perfectas para cualquier ocasión. ",
+      "descrip_eng": "We love these t-shirts with 'feel good' messages perfect for any occasion.\n",
+      "descrip_grm": "Wir lieben diese T-Shirts mit 'Wohlfühl'-Botschaften, die sich perfekt für jeden Anlass eignen.\n",
+      "actions": null,
+      "done": false
+    }
+  ]
+}

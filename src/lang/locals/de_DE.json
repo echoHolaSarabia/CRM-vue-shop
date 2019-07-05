@@ -1,0 +1,94 @@
+{
+    "menu": {
+        "tienda": "Shop",
+        "g_productos": "Produktmanagement",
+        "g_categorias": "Kategoriemanagement",
+        "g_colores": "Farbmanagement"
+    },
+
+    "portada": {
+        "anadir_carrito": "Zur Karte",
+        "name_carrito": "Name",
+        "qty_carrito": "Qty",
+        "price_carrito": "Price",
+        "actions_carrito": "Actions",
+        "total_carrito": "Gesamtbetrag",
+        "delete_carrito": "Löschen",
+        "emty": "Es befinden sich keine Produkte in Ihrem Warenkorb"
+    },
+
+    "productos": {
+        "anadir": "Neues Element hinzufügen",
+        "buscar": "Suche",
+        "buscar_placeholder": "Beispiel: Hose ...",
+        "borrar": "Zurücksetzen",
+        "pag": "Nach Seite",
+        "foto": "Bild",
+        "producto": "Produkt",
+        "categoria": "Category",
+        "colores": "Farben",
+        "acciones": "Actions",
+        "editar": "Bearbeiten",
+        "detalles": "Details",
+        "eliminar": "Löschen",
+        "emty": "Es sind keine Produkte zum Anzeigen vorhanden"
+      },
+
+      "productos_add": {
+        "titulo": "Produkterstellung",
+        "titulo2": "Produkt aktualisieren",
+        "t1": "Wie heißt du?",
+        "t1_placeholder": "Geben Sie den Namen des Produkts ein",
+        "t2": "Bild",
+        "t2_placeholder": "Geben Sie die URL des Produktbildes ein",
+        "t3": "Preis",
+        "t3_placeholder": "Geben Sie den Preis für jede Einheit ein",
+        "t4": "Stock",
+        "t4_placeholder": "Geben Sie die Anzahl der vorrätigen Einheiten ein",
+        "t5": "Kategorie",
+        "t6_placeholder": "Verfügbare Farben ...",
+        "t7_placeholder": "Spanische Beschreibung",
+        "t8_placeholder": "Englische Beschreibung",
+        "t9_placeholder": "Deutsche Beschreibung",
+        "t10_boton": "Produkt erstellen",
+        "alert": "Möchten Sie wirklich löschen "
+  },
+
+  "categoria_add": {
+    "titulo": "Kategoriemanagement",
+    "titulo2": "Kategorieerstellung",
+    "titulo3": "Kategorieaktualisierung",
+    "editar": "bearbeiten",
+    "eliminar": "löschen",
+    "boton": "neue hinzufügen",
+    "alert": "Möchten Sie die Kategorie wirklich löschen?",
+    "alert2": "Die dieser Kategorie zugewiesenen Produkte werden erneut der Kategorie 'Nicht kategorisiert' zugewiesen.",
+    "t1": "Kategorieaktualisierung",
+    "t2": "Namensvergabe",
+    "t2_placeholder": "Geben Sie den Namen der Kategorie ein",
+    "t3": "URL des Fotos",
+    "t3_placeholder": "Geben Sie die URL des Bildes ein",
+    "boton_ed": "Update",
+    "boton_ed2": "Update",
+    "error": "Dieses Feld ist erforderlich und muss mindestens 3 Zeichen lang sein.",
+    "error2": "Wir wissen, dass Sie großzügig sind, aber keine Waren verschenken!",
+    "error3": "Mindestens 1",
+    "error4": "Keine Kategorien erstellt",
+    "boton2": "Kategorie erstellen"
+  },
+
+  "color_add": {
+    "titulo": "Verwaltung der verfügbaren Farben",
+    "editar": "bearbeiten",
+    "eliminar": "löschen",
+    "boton": "neue hinzufügen",
+    "alert": "Es wird auch aus den Produkten gelöscht, denen es zugewiesen wurde",
+    "t1": "Farbe erzeugen",
+    "t2": "Namensvergabe",
+    "t2_placeholder": "Geben Sie den Namen der Farbe ein",
+    "t3": "Farbauswahl",
+    "boton_ed": "Farbe erstellen",
+    "error": "Dieses Feld ist erforderlich und muss mindestens 3 Zeichen lang sein.",
+    "error2": "Keine Farben erstellt"
+  }
+}
