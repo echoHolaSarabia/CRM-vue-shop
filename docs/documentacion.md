@@ -21,6 +21,7 @@ Desarrollo de una aplicación web tipo CMS cuyo propósito es demostrar las habi
 * **Node.js**: Lenguaje de servidor
 * **express js**: Framework de desarrollo
 * **mongoose**: Validación de datos Schema
+* **jwt-simple**: Generación de tokens de sesiones
 * **MongoDB**: Almacenamiento información
 
 
@@ -35,7 +36,9 @@ Desarrollo de una aplicación web tipo CMS cuyo propósito es demostrar las habi
 * **npm**: Instalador de paquetes
 * **Chome**: Navegador
 * **Vue Dev Tools**: Control de estados desde Chrome
-* **AWS**: Servidor de despliegue
+* **AWS S3**: Servidor de despliegue del front
+* **Heroku**: Servidor de despliegue de la API
+* **mongolab**: Despliegue de la BBDD
 
 
 ## Objetivo y evolución
@@ -56,15 +59,16 @@ Además, ya que el objetivo era mostrar el nivel de conocimientos en una prueba 
 
 ## Desarrollo
 
-Para no trabajar directamente sobre la BBDD de Mongo, se ha exportado, a través de la API, un .json alojado en el directorio public/fixtures.
+Se ha desplegado el front en vue sobre un servidor s3 de amazon, la API en Heroku, con los CORS debidamente configurados y gestión de rutas autenticadas vía json Tokens.
 
-La tienda ha sido creada con los módulos visuales de bootstrap, si bien, por no querer dilatar demasiado el tiempo de entrega, no se ha optimizado la visualización para resoluciones < 1200px.
+En cuanto a mongo, se ha empleado la utilidad de mongo para enlazar con mongolab y poder desplegar así la BBDD con sencillez.
 
-Así mismo, podría haberse añadido un módulo de login que permitiese restringir al acceso a determinadas rutas que se considerasen privadas (secciones de gestión de información), pero, una vez más, por encontrarse fuera de los requerimentos del proyecto, y por no exceder en demasía los tiempos de entrega, se ha omitido.
+La tienda ha sido creada con los módulos visuales de bootstrap-vue, si bien, por no querer dilatar demasiado el tiempo de entrega, no se ha optimizado la visualización para resoluciones < 1200px.
+
+Así mismo, podría haberse añadido un módulo de login que permitiese restringir al acceso a determinadas rutas que se considerasen privadas (secciones de gestión de información), pero, una vez más, por encontrarse fuera de los requerimentos del proyecto, y por no exceder en demasía los tiempos de entrega, se ha omitido. Sin embargo, pueden verse en los repositorios de Git (front y api) gran parte del desarrollo ya realizado.
 
 ## Conclusiones
 Este proyecto me ha permitido familiarizarme con tecnologías que desconocía, tales como swaggerhub o el propio markdown que aquí se emplea.
-
 
 Espero que el desarrollo esté a la altura de vuestras expectativas y, cualquier cuestión, estaré encantado de aclarálosla.
 
