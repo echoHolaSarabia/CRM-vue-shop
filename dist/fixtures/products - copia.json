@@ -1,0 +1,332 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "camisas",
+      "picture": "http://www.loopeando.com/prueba-vue/imgs/camisas.jpg"
+    },
+    {
+      "id": 2,
+      "name": "camisetas",
+      "picture": "http://www.loopeando.com/prueba-vue/imgs/camisetas.jpg"
+    },
+    {
+      "id": 3,
+      "name": "polos",
+      "picture": "http://www.loopeando.com/prueba-vue/imgs/polos.jpg"
+    },
+    {
+      "id": 4,
+      "name": "polos",
+      "picture": "http://www.loopeando.com/prueba-vue/imgs/polos.jpg"
+    },
+    {
+      "id": 5,
+      "name": "pantalones",
+      "picture": "http://www.loopeando.com/prueba-vue/imgs/vaqueros.jpg"
+    },
+    {
+      "id": 6,
+      "name": "vestidos",
+      "picture": "http://loopeando.com/prueba-vue/imgs/vestidos.jpg"
+    },
+    {
+      "id": 1562090179677,
+      "name": "Sudaderas",
+      "picture": "http://www.loopeando.com/prueba-vue/imgs/sudaderas.jpg",
+      "done": false
+    },
+    {
+      "id": 1562090248315,
+      "name": "zapatillas",
+      "picture": "http://www.loopeando.com/prueba-vue/imgs/zapatillas.jpg",
+      "done": false
+    }
+  ],
+  "colors": [
+    {
+      "id": 1,
+      "name": "rojos",
+      "css": "rgb(236,29,29)"
+    },
+    {
+      "id": 2,
+      "name": "amarillo",
+      "css": "rgb(255,255,54)"
+    },
+    {
+      "id": 1562077380893,
+      "name": "rosa pálido",
+      "css": "rgb(255,242,242)",
+      "done": false
+    },
+    {
+      "id": 1562077401128,
+      "name": "azul aguamar",
+      "css": "rgb(0,255,255)",
+      "done": false
+    },
+    {
+      "id": 1562077428888,
+      "name": "rosa",
+      "css": "rgb(255,0,212)",
+      "done": false
+    },
+    {
+      "id": 1562077452278,
+      "name": "verde seto",
+      "css": "rgb(82,111,86)",
+      "done": false
+    },
+    {
+      "id": 1562077472326,
+      "name": "negro",
+      "css": "rgb(0,0,0)",
+      "done": false
+    },
+    {
+      "id": 1562077488992,
+      "name": "violeta",
+      "css": "rgb(167,101,255)",
+      "done": false
+    },
+    {
+      "id": 1562077661162,
+      "name": "verde",
+      "css": "rgb(0,117,35)",
+      "done": false
+    },
+    {
+      "id": 1562077673747,
+      "name": "gris",
+      "css": "rgb(204,204,204)",
+      "done": false
+    },
+    {
+      "id": 1562093400355,
+      "name": "naranja",
+      "css": "rgb(235,83,45)",
+      "done": false
+    },
+    {
+      "id": 1562093416870,
+      "name": "coral",
+      "css": "rgb(255,76,76)",
+      "done": false
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Camiseta estampada 'Juego de Tronos'",
+      "picture": "https://static.kiabi.es/images/camiseta-estampada-juego-de-tronos-blanco-hombre-ww360_1_fr1.jpg",
+      "price": 12,
+      "stock": 74,
+      "category": 1562090179677,
+      "color": [
+        1,
+        2,
+        1562077380893,
+        1562077428888,
+        1562077472326,
+        1562077661162
+      ],
+      "actions": 1
+    },
+    {
+      "id": 5,
+      "name": "Camiseta estampada 'Harry Potter'",
+      "picture": "https://static.kiabi.es/images/camiseta-estampada-harry-potter-gris-hombre-wj967_1_fr1.jpg",
+      "price": 24,
+      "stock": 35,
+      "category": 2,
+      "color": [
+        1,
+        1562077380893
+      ],
+      "actions": 5
+    },
+    {
+      "id": 8,
+      "name": "Santa maria virgen santisima",
+      "picture": "https://www.bally.eu/dw/image/v2/AAWE_PRD/on/demandware.static/-/Sites-bly-master-product-catalog/default/dw27edab2b/images/original/Jackets_M3PE277L_1S029_370F.jpg",
+      "price": 11,
+      "stock": 88,
+      "category": 3,
+      "color": [
+        1,
+        1562077428888,
+        1562093416870,
+        1562093400355
+      ],
+      "actions": 8
+    },
+    {
+      "id": 10,
+      "name": "Bermudas de piqué",
+      "picture": "https://static.kiabi.es/images/bermudas-de-pique-azul-tallas-grandes-hombre-wp766_1_fr1.jpg",
+      "price": 9,
+      "stock": 65,
+      "category": 5,
+      "color": [
+        1,
+        1562077488992,
+        2,
+        1562077401128,
+        1562077452278
+      ],
+      "actions": 10
+    },
+    {
+      "id": 11,
+      "name": "Camiseta slim fit de algodón",
+      "picture": "https://static.kiabi.es/images/camiseta-slim-fit-de-algodon-lisa-con-cuello-de-pico-rosa-hombre-wa039_14_fr1.jpg",
+      "price": 14,
+      "stock": 45,
+      "category": 2,
+      "color": [
+        1562077472326,
+        1562077452278,
+        1562077401128
+      ],
+      "actions": 11
+    },
+    {
+      "id": 12,
+      "name": "Camisa cómoda de punto",
+      "picture": "https://static.kiabi.es/images/camisa-comoda-de-punto-verde-gris-tallas-grandes-hombre-vs913_20_fr1.jpg",
+      "price": "22.62",
+      "stock": 82,
+      "category": 1,
+      "actions": 12,
+      "color": []
+    },
+    {
+      "id": 13,
+      "name": "Camiseta estampada sin mangas regular",
+      "picture": "https://static.kiabi.es/images/camiseta-estampada-sin-mangas-regular-azul-hombre-wr497_3_fr1.jpg",
+      "price": "13.03",
+      "stock": 24,
+      "category": 1,
+      "actions": 13,
+      "color": []
+    },
+    {
+      "id": 14,
+      "name": "Bermudas oxford rectas",
+      "picture": "https://static.kiabi.es/images/bermudas-oxford-rectas-azul-tallas-grandes-hombre-wp949_2_fr1.jpg",
+      "price": "13.57",
+      "stock": 32,
+      "category": 5,
+      "actions": 14,
+      "color": []
+    },
+    {
+      "id": 15,
+      "name": "Bagel - Sesame Seed Presliced",
+      "picture": "https://static.kiabi.es/images/camiseta-recta-estampada-ecodiseno-gris-tallas-grandes-hombre-wn561_9_fr1.jpg",
+      "price": "22.52",
+      "stock": 1,
+      "category": 2,
+      "actions": 15,
+      "color": []
+    },
+    {
+      "id": 16,
+      "name": "Camiseta recta estampada Ecodiseño",
+      "picture": "https://static.kiabi.es/images/camiseta-recta-estampada-ecodiseno-gris-tallas-grandes-hombre-wn561_9_fr1.jpg",
+      "price": "22.35",
+      "stock": 98,
+      "category": 2,
+      "actions": 16,
+      "color": []
+    },
+    {
+      "id": 17,
+      "name": "Bañador liso",
+      "picture": "https://static.kiabi.es/images/banador-liso-negro-hombre-wo621_5_fr1.jpg",
+      "price": "18.83",
+      "stock": 16,
+      "category": 5,
+      "actions": 17,
+      "color": []
+    },
+    {
+      "id": 18,
+      "name": "Camiseta estampada sin mangas regular",
+      "picture": "https://static.kiabi.es/images/camiseta-estampada-sin-mangas-regular-azul-hombre-wr497_1_fr1.jpg",
+      "price": "2.97",
+      "stock": 92,
+      "category": 2,
+      "actions": 18,
+      "color": []
+    },
+    {
+      "id": 19,
+      "name": "Chanclas bicolores",
+      "picture": "https://static.kiabi.es/images/chanclas-bicolores-azul-navy-hombre-wo520_1_fr1.jpg",
+      "price": "18.78",
+      "stock": 87,
+      "category": 2,
+      "actions": 19,
+      "color": []
+    },
+    {
+      "id": 20,
+      "name": "Camisa regular de rayas",
+      "picture": "https://static.kiabi.es/images/camisa-regular-de-rayas-gris-hombre-wp980_1_fr1.jpg",
+      "price": "18.09",
+      "stock": 39,
+      "category": 1,
+      "actions": 20,
+      "color": []
+    },
+    {
+      "id": 1562162713231,
+      "name": "este va ultimo",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa59HcYkwySwE4ZBXjS3kOvXr5tVpI0UhpbBl2h4syBsSE5c27",
+      "price": 12.21,
+      "stock": 77,
+      "category": 3,
+      "color": [
+        2,
+        1562077380893,
+        1562077401128
+      ],
+      "actions": 1562162713231,
+      "done": false
+    },
+    {
+      "id": 1562164981672,
+      "name": "ahra si",
+      "picture": "https://img.ltwebstatic.com/images2_pi/2019/06/06/15598053093639878748_thumbnail_405x552.jpg",
+      "price": 32.2,
+      "stock": 32,
+      "category": 5,
+      "color": [
+        1562077428888,
+        1562077673747,
+        1562077380893
+      ],
+      "actions": null,
+      "done": false
+    },
+    {
+      "id": 1562169645795,
+      "name": "Armarios",
+      "picture": "https://assets.adidas.com/images/w_600,h_600,f_auto,q_auto:sensitive,fl_lossy/aa2ff0e2a71a459e9724a88500f19bf9_9366/Chaqueta_Presentacion_Real_Madrid_Azul_CW8637_01_laydown.jpg",
+      "price": 1,
+      "stock": 1,
+      "category": 4,
+      "color": [
+        1562077661162,
+        1562077380893
+      ],
+      "actions": 1562169645795,
+      "descrip_esp": "vvv",
+      "descrip_eng": "ccc",
+      "descrip_grm": "xxx",
+      "done": false
+    }
+  ]
+}
