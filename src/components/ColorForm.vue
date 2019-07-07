@@ -91,4 +91,10 @@
 .espacio-superior{
     margin-top: 3rem !important;
 }
+
+ circle{
+       border-color: #000000;
+    border-style: solid;
+    border-width: medium;
+}
 </style>

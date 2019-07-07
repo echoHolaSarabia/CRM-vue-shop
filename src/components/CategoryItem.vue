@@ -60,7 +60,7 @@ import {mapMutations, mapActions} from 'vuex'
            const hola2 = this.$t('lang.categoria_add.alert2');
 
             if(confirm( hola + "'" + name + "'" + hola2 + "?")){
-             this._removeCategory(this.category.id)
+             this._removeCategory(this.category._id)
             }
 
 

@@ -60,7 +60,7 @@
            const hola2 = this.$t('lang.color_add.alert');
 
             if(confirm( hola + "'" + name + "'? " + hola2)){
-                this._removeColor(this.color.id)
+                this._removeColor(this.color._id)
             }
         }
 
@@ -90,6 +90,10 @@
     width: 30px;
     float: left;
     margin-right: 20px;
+
+    border-color: #e9e9e9;
+    border-style: solid;
+    border-width: thin;
 }
 
 

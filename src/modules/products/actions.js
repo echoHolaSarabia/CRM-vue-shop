@@ -5,9 +5,9 @@ import Vue from 'vue'
 export async function fetchProducts ({commit}){
     try {
         const {data} = await Vue.axios({
-          url: '/products'
+          url: 'https://nodejs-api-shop-vue2.herokuapp.com/api/products_json/'
     })
-    commit('setProducts', data)
+    commit('setProducts', data.products)
     } catch (e) {
         commit('productsError', e.message)
     } finally {
@@ -19,7 +19,7 @@ export async function addProducts ({commit}, product) {
     try {
         await Vue.axios({
           method: 'POST',
-          url: '/products',
+          url: 'https://nodejs-api-shop-vue2.herokuapp.com/api/product',
           data: {
             id: Date.now(),
             name: product.name,
@@ -46,7 +46,7 @@ export async function updateProduct ({commit, dispatch}, product) {
     try {
         await Vue.axios({
           method: 'PUT',
-          url: `/products/${product.id}`,
+          url: `https://nodejs-api-shop-vue2.herokuapp.com/api/product_update/${product._id}`,
           data: {
             id: product.id,
             name: product.name,
@@ -75,7 +75,7 @@ export async function updateProduct ({commit, dispatch}, product) {
       try {
         await Vue.axios({
           method: 'PUT',
-          url: `/products/${product.id}`,
+          url: `https://nodejs-api-shop-vue2.herokuapp.com/api/product_update/${product._id}`,
           data: {
             id: product.id,
             name: product.name,
@@ -99,16 +99,16 @@ export async function updateProduct ({commit, dispatch}, product) {
       }
     }
     
-    export async function removeProduct ({commit, dispatch}, id) {
+    export async function removeProduct ({commit, dispatch}, _id) {
       try {
         await Vue.axios({
           method: 'DELETE',
-          url: `/products/${id}`,
+          url: `https://nodejs-api-shop-vue2.herokuapp.com/api/product_delete/${_id}`,
         })
         dispatch('fetchProducts')
       } catch (e) {
         commit('productsError', e.message)
       } finally {
-        console.log('La petición para actualizar el estado del product ha finalizado')
+        console.log('La petición para borrar el product ha finalizado')
       }
     }

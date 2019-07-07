@@ -83,7 +83,7 @@
         <b-button variant="info" size="sm" @click="row.toggleDetails" class="mr-1">
             {{ $t('lang.productos.detalles') }}
         </b-button>
-        <b-button variant="danger" size="sm" @click="removeProduct(row.item.id, row.item.name)">
+        <b-button variant="danger" size="sm" @click="removeProduct(row.item._id, row.item.name)">
             {{ $t('lang.productos.eliminar') }}
         </b-button>
 
@@ -231,10 +231,10 @@
         updateProductStatus () {
           this._updateProductStatus(this.product)
         },
-        removeProduct (id, name) {  
+        removeProduct (_id, name) {  
           const hola = this.$t('lang.productos_add.alert');
             if(confirm( hola + "'" + name +"'?")){
-              this._removeProduct(id)
+              this._removeProduct(_id)
             } 
         }
       

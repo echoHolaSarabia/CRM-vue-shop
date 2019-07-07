@@ -25,6 +25,7 @@ export default {
                return state.locale
           }
      },
+     
     i18n
 }
 </script>

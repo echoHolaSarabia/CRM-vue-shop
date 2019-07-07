@@ -4,13 +4,13 @@ import Vue from 'vue'
 //export async function fetchProducts ({state, commit, dispatch, rootState}){
 export async function fetchColors ({commit}){
     try {
-        //const data = await fetch('http://localhost:3000/colors')
+        //const data = await fetch('https://nodejs-api-shop-vue2.herokuapp.com/api/colors_json/')
         //const colors = await data.json()
         const {data} = await Vue.axios({
-          url: '/colors'
+          url: 'https://nodejs-api-shop-vue2.herokuapp.com/api/colors_json/'
     })
     //commit('colors/setColors', colors, { root: true })
-    commit('setColors', data)
+    commit('setColors', data.colors)
     } catch (e) {
         commit('colorsError', e.message)
     } finally {
@@ -22,13 +22,13 @@ export async function addColors ({commit}, color) {
     try {
         await Vue.axios({
           method: 'POST',
-          url: '/colors',
+          url: 'https://nodejs-api-shop-vue2.herokuapp.com/api/color',
           data: {
-            id: Date.now(),
-            name: color.name,
-            css: color.css,
-            done: false
-          }
+              id: Date.now(),
+              name: color.name,
+              css: color.css,
+              done: false
+            }
         })
     } catch (e) {
         commit('colorsError', e.message)
@@ -41,12 +41,12 @@ export async function updateColor ({commit, dispatch}, color) {
     try {
         await Vue.axios({
           method: 'PUT',
-          url: `/colors/${color.id}`,
+          url: `https://nodejs-api-shop-vue2.herokuapp.com/api/color_update/${color._id}`,
           data: {
-            id: color.id,
-            name: color.name,
-            css: color.css,
-            done: color.done
+              id: color.id,
+              name: color.name,
+              css: color.css,
+              done: color.done
           }
         })
         dispatch('fetchColors')
@@ -62,12 +62,13 @@ export async function updateColor ({commit, dispatch}, color) {
       try {
         await Vue.axios({
           method: 'PUT',
-          url: `/colors/${color.id}`,
+          url: `https://nodejs-api-shop-vue2.herokuapp.com/api/color_update/${color._id}`,
           data: {
-            id: color.id,
-            name: color.name,
-            css: color.css,
-            done: ! color.done
+              id: color.id,
+              name: color.name,
+              css: color.css,
+              done: ! color.done
+            
           }
         })
         dispatch('fetchColors')
@@ -82,7 +83,7 @@ export async function updateColor ({commit, dispatch}, color) {
       try {
         await Vue.axios({
           method: 'DELETE',
-          url: `/colors/${id}`,
+          url: `https://nodejs-api-shop-vue2.herokuapp.com/api/color_delete/${id}`,
         })
         dispatch('fetchColors')
       } catch (e) {
